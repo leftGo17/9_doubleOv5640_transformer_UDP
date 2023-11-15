@@ -1,0 +1,593 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Acode/Gowin/4_ov5640_beta3/src/sim
+varp
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 7;ikO0bS49i09mBjJloWP0
+I6PeX]Ka1I42fbPE48d8D;1
+R0
+w1697722431
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/arp/arp.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/arp/arp.v
+L0 1
+Z2 OL;L;10.5;63
+Z3 !s108 1698680183.000000
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/arp/arp.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/arp/arp.v|
+!i113 0
+Z4 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+varp_rx
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ZoPjEECV4OmGmHE]=iPFY3
+Io<iinoTdW:Ug6H>P2kIT>1
+R0
+w1698493947
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/arp/arp_rx.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/arp/arp_rx.v
+L0 1
+R2
+R3
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/arp/arp_rx.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/arp/arp_rx.v|
+!i113 0
+R4
+R5
+varp_tx
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 RSfjTzFfLVOR1FOd6>Y5k1
+IL6Ei>Q;gRNB5bgd5Mi@672
+R0
+w1698493944
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/arp/arp_tx.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/arp/arp_tx.v
+L0 1
+R2
+R3
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/arp/arp_tx.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/arp/arp_tx.v|
+!i113 0
+R4
+R5
+vcmos2gray
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 MEVD?=>9GGJ0gCNP09fQ03
+ICP[KFXF>hUV7g8Z5`2j]?3
+Z6 dD:/Acode/Gowin/6_ov5640_double_beta1/src/sim
+w1699529962
+8D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/cmos2gray.v
+FD:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/cmos2gray.v
+L0 1
+R2
+!s108 1699534927.000000
+!s107 D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/cmos2gray.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/cmos2gray.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vcmos2sobel
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 <LOa`T[hTD48HOoK63ac?0
+IXU?=Zm6m^2lhf<Jl5XWK;2
+R6
+w1699540422
+8D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/cmos2sobel.v
+FD:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/cmos2sobel.v
+L0 1
+R2
+Z8 !s108 1699599237.000000
+!s107 D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/cmos2sobel.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/cmos2sobel.v|
+!i113 0
+R7
+R5
+vcmos_udp_send
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 k[gCFGXl5Y8Yng@NHeZzW1
+IQ>gKhkRT>iczj=DN]:^;L2
+R0
+w1698481288
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_udp_send/cmos_udp_send.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_udp_send/cmos_udp_send.v
+L0 1
+R2
+Z9 !s108 1698680185.000000
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_udp_send/cmos_udp_send.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_udp_send/cmos_udp_send.v|
+!i113 0
+R4
+R5
+vcmosdata_rev
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 MN@?7oQh_@?z7KRnf>7]D2
+IFJj0_U^?X@@UD5_?kQkcV2
+R0
+w1698070361
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmosdata_rev/cmosdata_rev.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmosdata_rev/cmosdata_rev.v
+L0 1
+R2
+Z10 !s108 1698680184.000000
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmosdata_rev/cmosdata_rev.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmosdata_rev/cmosdata_rev.v|
+!i113 0
+R4
+R5
+vcoms_config
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 `kFekWnBZ9[oTPB6>gJc81
+IUaDF4BaOZD[LTYm7hJcn;3
+R0
+w1698486703
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_config/cmos_config.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_config/cmos_config.v
+L0 1
+R2
+R10
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_config/cmos_config.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_config/cmos_config.v|
+!i113 0
+R4
+R5
+vconfig_ctrl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 4<h>1XX>Qbbo<;C;HYMZQ1
+I8d4IzW7mBRBFlEL3a34X?0
+R0
+w1698505055
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_config/config_ctrl.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_config/config_ctrl.v
+L0 1
+R2
+R10
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_config/config_ctrl.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_config/config_ctrl.v|
+!i113 0
+R4
+R5
+vcrc32
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 lgTRT:P?d;iT6l_FMOAeL2
+IENJK1F^;nA33^mfmT88_[3
+R0
+w1696708816
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/crc32.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/crc32.v
+L0 1
+R2
+R9
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/crc32.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/crc32.v|
+!i113 0
+R4
+R5
+veth_trans
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 XN0W=>[?SF^eD>@iUXOaf2
+I1MQ4PgIT<R92;nZYCmDbU2
+R0
+w1697722277
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/eth_trans.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/eth_trans.v
+L0 1
+R2
+R9
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/eth_trans.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/eth_trans.v|
+!i113 0
+R4
+R5
+vFIFO_HS_Top
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 B:8jTk<42GaXd0TQZgTP[2
+I=9RRz;MDhVZXGCRCG6?dU3
+R0
+w1698481181
+8D:/Acode/Gowin/4_ov5640_beta3/src/ip/fifo_hs/fifo_hs.vo
+FD:/Acode/Gowin/4_ov5640_beta3/src/ip/fifo_hs/fifo_hs.vo
+L0 8
+R2
+!s108 1698680181.000000
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/ip/fifo_hs/fifo_hs.vo|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/ip/fifo_hs/fifo_hs.vo|
+!i113 0
+R4
+R5
+n@f@i@f@o_@h@s_@top
+vfifo_sc_fifo1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 c8cPS0JOhh_1z^2cf1YKd1
+ILOl[5aZ=kX@S;U=dMD>=52
+R6
+w1699464298
+8D:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo1/fifo_sc_fifo1.vo
+FD:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo1/fifo_sc_fifo1.vo
+L0 8
+R2
+R8
+!s107 D:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo1/fifo_sc_fifo1.vo|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo1/fifo_sc_fifo1.vo|
+!i113 0
+R7
+R5
+vfifo_sc_fifo2
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 FSC5K0U6`TSQ[ChAB[Q0B1
+IHMO0XnPX>9igiEceQ5QTN2
+R6
+w1699464319
+8D:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo2/fifo_sc_fifo2.vo
+FD:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo2/fifo_sc_fifo2.vo
+L0 8
+R2
+R8
+!s107 D:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo2/fifo_sc_fifo2.vo|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo2/fifo_sc_fifo2.vo|
+!i113 0
+R7
+R5
+vGowin_rPLL25M
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 H>E<NlEN<E;LzKh65VCF:3
+IQ3VT?RIFZ>zam0QH;<lli0
+R0
+w1698671892
+8D:/Acode/Gowin/4_ov5640_beta3/src/ip/gowin_rpll25M/gowin_rpll25M.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/ip/gowin_rpll25M/gowin_rpll25M.v
+Z11 L0 10
+R2
+Z12 !s108 1698680182.000000
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/ip/gowin_rpll25M/gowin_rpll25M.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/ip/gowin_rpll25M/gowin_rpll25M.v|
+!i113 0
+R4
+R5
+n@gowin_r@p@l@l25@m
+vGowin_rPLL50M
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 7GC74lj^[nn]mUOi1_`DY2
+IX6Ti065OoH_mh4Mb60fFO0
+R0
+w1698268106
+8D:/Acode/Gowin/4_ov5640_beta3/src/ip/gowin_rpll50M/gowin_rpll50M.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/ip/gowin_rpll50M/gowin_rpll50M.v
+R11
+R2
+R12
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/ip/gowin_rpll50M/gowin_rpll50M.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/ip/gowin_rpll50M/gowin_rpll50M.v|
+!i113 0
+R4
+R5
+n@gowin_r@p@l@l50@m
+vgray2sobel
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?>QFH^b8cm08<Nd0ibImA1
+I[oBON2AeZ7[RNSc7>ooC72
+R6
+w1699599205
+8D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/gray2sobel.v
+FD:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/gray2sobel.v
+L0 1
+R2
+R8
+!s107 D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/gray2sobel.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/gray2sobel.v|
+!i113 0
+R7
+R5
+vi2c_send
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 LgDe2Q;[fS;GH8O:ezK3B3
+IBj5oSOz=<hd8Pmdeh7khj1
+R0
+w1698486723
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_config/i2c_send.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_config/i2c_send.v
+L0 1
+R2
+R10
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_config/i2c_send.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/cmos_config/i2c_send.v|
+!i113 0
+R4
+R5
+vicmp
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Q0PeTE;][AaBRUk4LHklJ3
+I<hZ>R@H1JU_OO3g:>Pg@:1
+R0
+w1698497392
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/icmp/icmp.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/icmp/icmp.v
+L0 1
+R2
+Z13 !s108 1698680186.000000
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/icmp/icmp.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/icmp/icmp.v|
+!i113 0
+R4
+R5
+vicmp_rx
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 goWXMZDiWJIRk8GD9_cAh3
+I@eU;en<if]3PcZJoG`A=c2
+R0
+w1697722379
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/icmp/icmp_rx.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/icmp/icmp_rx.v
+L0 1
+R2
+R13
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/icmp/icmp_rx.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/icmp/icmp_rx.v|
+!i113 0
+R4
+R5
+vicmp_tx
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^CP<Z1ezmVZ9d[Lg0ON`X2
+I7biYhh^Bg;bfA0YoEoCal0
+R0
+w1698503421
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/icmp/icmp_tx.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/icmp/icmp_tx.v
+L0 1
+R2
+Z14 !s108 1698680187.000000
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/icmp/icmp_tx.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/icmp/icmp_tx.v|
+!i113 0
+R4
+R5
+vinit2gray
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 eHc=GYa9WHOzVL1]RezCB1
+ITDBZ5;57KZF>JVifOm[[A1
+R6
+w1699540408
+8D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/data2gray.v
+FD:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/data2gray.v
+L0 1
+R2
+R8
+!s107 D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/data2gray.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/data2gray.v|
+!i113 0
+R7
+R5
+vkey_filter
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 _hHHQj6JZcCMG<3NF@XUa2
+IR_`ULRHK=L=MZU0m4Nd4_3
+R0
+w1697722391
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/key_filter/key_filter.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/key_filter/key_filter.v
+L0 1
+R2
+R14
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/key_filter/key_filter.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/key_filter/key_filter.v|
+!i113 0
+R4
+R5
+vmain
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 DKaHhfk=25T6E3>c`leQi1
+IV3OH0K4U6[n4l9EZ0FU]I1
+R0
+w1698494608
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/main.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/main.v
+L0 1
+R2
+R12
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/main.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/main.v|
+!i113 0
+R4
+R5
+vrgmii_rx
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 RhbH8h2o;WGa^hl39[c5f3
+IgTWfQA^IlB@l1K7]TC3P?0
+R0
+w1698481356
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/rgmii_rx.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/rgmii_rx.v
+L0 1
+R2
+R9
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/rgmii_rx.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/rgmii_rx.v|
+!i113 0
+R4
+R5
+vrgmii_tx
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Z>U>:XWc[J<j?5?>gBjO<2
+I;75AeA>IHa8^T@5:<0`fR3
+R0
+w1698481340
+8D:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/rgmii_tx.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/rgmii_tx.v
+L0 1
+R2
+R13
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/rgmii_tx.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/rtl/eth_trans/rgmii_tx.v|
+!i113 0
+R4
+R5
+vsobel_send
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;a0doZlDI<ILF3PXfe3Vl3
+I:JnjbZj3S5lii>ZRilP?>2
+R6
+w1699374611
+8D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/sobel_send.v
+FD:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/sobel_send.v
+L0 1
+R2
+R8
+!s107 D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/sobel_send.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/sobel_send.v|
+!i113 0
+R7
+R5
+vtb_cmos2sobel
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 JULlIUlUbF2@h7ANDP0200
+IRSK:7^DSlUHm`SH[UbAz42
+R6
+w1699598877
+8D:/Acode/Gowin/6_ov5640_double_beta1/src/sim/tb_cmos2sobel.v
+FD:/Acode/Gowin/6_ov5640_double_beta1/src/sim/tb_cmos2sobel.v
+L0 3
+R2
+R8
+!s107 D:/Acode/Gowin/6_ov5640_double_beta1/src/sim/tb_cmos2sobel.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Acode/Gowin/6_ov5640_double_beta1/src/sim/tb_cmos2sobel.v|
+!i113 0
+R7
+R5
+vtb_main
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 V82b3;F>kbGmnOS=cgSNV3
+I`GLD0n`<5FeRTX6aFZe9?1
+R0
+w1698680153
+8D:/Acode/Gowin/4_ov5640_beta3/src/sim/tb_main.v
+FD:/Acode/Gowin/4_ov5640_beta3/src/sim/tb_main.v
+L0 2
+R2
+R14
+!s107 D:/Acode/Gowin/4_ov5640_beta3/src/sim/tb_main.v|
+!s90 -reportprogress|300|D:/Acode/Gowin/4_ov5640_beta3/src/sim/tb_main.v|
+!i113 0
+R4
+R5

@@ -1,0 +1,12 @@
+-d D:\Acode\Gowin\9_doubleOv5640_transformer_UDP\impl\gwsynthesis\9_doubleOv5640_transformer_UDP.vg
+-p GW2AR-18C-eLQFP144P-8
+-pn GW2AR-LV18EQ144PC8/I7
+-cst D:\Acode\Gowin\9_doubleOv5640_transformer_UDP\src\xdc\main.cst
+-cfg D:\Acode\Gowin\9_doubleOv5640_transformer_UDP\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

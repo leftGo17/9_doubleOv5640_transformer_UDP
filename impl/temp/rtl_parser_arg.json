@@ -1,0 +1,137 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/ip/fifo_hs/fifo_hs.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/ip/fifo_sc_fifo1/fifo_sc_fifo1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/ip/fifo_sc_fifo2/fifo_sc_fifo2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/ip/gowin_rpll25M/gowin_rpll25M.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/ip/gowin_rpll50M/gowin_rpll50M.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/arp/arp.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/arp/arp_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/arp/arp_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2eth/cmos2eth.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2eth/cmos_data_rev.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2eth/cmos_udp_send.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2gray/cmos2gray.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2gray/data2gray.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2gray/filter_send.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2gray/gray2filter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2transformer/cmos2transformer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2transformer/data2gray.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2transformer/gray2transformer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2transformer/transformer_send.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos_config/cmos_config.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos_config/config_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos_config/i2c_send.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/eth_trans/crc32.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/eth_trans/eth_trans.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/eth_trans/rgmii_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/eth_trans/rgmii_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/icmp/icmp.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/icmp/icmp_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/icmp/icmp_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/key_filter/key_filter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/impl/temp/rtl_parser.result",
+ "Top" : "main",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

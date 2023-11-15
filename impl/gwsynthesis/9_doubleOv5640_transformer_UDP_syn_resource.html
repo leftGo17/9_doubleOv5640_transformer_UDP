@@ -1,0 +1,431 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Hierarchy Module Resource</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 14px; }
+div#main_wrapper{ width: 100%; }
+h1 {text-align: center; }
+h1 {margin-top: 36px; }
+table, th, td { border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { align = "center"; padding: 5px 2px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table td.label { width: 20%; white-space: nowrap; min-width: 20px; background-color: #dee8f4; }
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="content">
+<h1>Hierarchy Module Resource</h1>
+<table>
+<tr>
+<th class="label">MODULE NAME</th>
+<th class="label">REG NUMBER</th>
+<th class="label">ALU NUMBER</th>
+<th class="label">LUT NUMBER</th>
+<th class="label">DSP NUMBER</th>
+<th class="label">BSRAM NUMBER</th>
+<th class="label">SSRAM NUMBER</th>
+</tr>
+<tr>
+<td class="label">main (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v)</td>
+<td align = "center">19</td>
+<td align = "center">-</td>
+<td align = "center">52</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--inst_Gowin_rPLL50M
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--inst_Gowin_rPLL25M
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--key_filter_inst
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v)</td>
+<td align = "center">21</td>
+<td align = "center">-</td>
+<td align = "center">39</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--eth_trans_inst
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--rgmii_rx_inst
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/eth_trans/eth_trans.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--rgmii_tx_inst
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/eth_trans/eth_trans.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--arp_inst
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v)</td>
+<td align = "center">93</td>
+<td align = "center">-</td>
+<td align = "center">25</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--arp_rx_inst
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/arp/arp.v)</td>
+<td align = "center">232</td>
+<td align = "center">5</td>
+<td align = "center">201</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--arp_tx_inst
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/arp/arp.v)</td>
+<td align = "center">59</td>
+<td align = "center">5</td>
+<td align = "center">203</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--crc32_init_arp
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/arp/arp_tx.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">52</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--icmp_inst
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v)</td>
+<td align = "center">91</td>
+<td align = "center">-</td>
+<td align = "center">19</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--icmp_rx_inst
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/icmp/icmp.v)</td>
+<td align = "center">112</td>
+<td align = "center">5</td>
+<td align = "center">128</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--icmp_tx_inst
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/icmp/icmp.v)</td>
+<td align = "center">171</td>
+<td align = "center">83</td>
+<td align = "center">226</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--crc32_init_icmp
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/icmp/icmp_tx.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">53</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--inst_cmos_config
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_i2c_send
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos_config/cmos_config.v)</td>
+<td align = "center">32</td>
+<td align = "center">9</td>
+<td align = "center">91</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_config_ctrl
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos_config/cmos_config.v)</td>
+<td align = "center">25</td>
+<td align = "center">21</td>
+<td align = "center">14</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--inst_cmos2eth_1
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_cmos_data_rev
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2eth/cmos2eth.v)</td>
+<td align = "center">30</td>
+<td align = "center">10</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_cmos_udp_send
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2eth/cmos2eth.v)</td>
+<td align = "center">68</td>
+<td align = "center">51</td>
+<td align = "center">273</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_FIFO_HS_Top
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2eth/cmos_udp_send.v)</td>
+<td align = "center">54</td>
+<td align = "center">12</td>
+<td align = "center">82</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--crc32_init_cmos
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2eth/cmos_udp_send.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">49</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--inst_cmos2eth_2
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_cmos_data_rev
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2eth/cmos2eth.v)</td>
+<td align = "center">32</td>
+<td align = "center">10</td>
+<td align = "center">11</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_cmos_udp_send
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2eth/cmos2eth.v)</td>
+<td align = "center">68</td>
+<td align = "center">51</td>
+<td align = "center">261</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_FIFO_HS_Top
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2eth/cmos_udp_send.v)</td>
+<td align = "center">54</td>
+<td align = "center">12</td>
+<td align = "center">82</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--crc32_init_cmos
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2eth/cmos_udp_send.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">45</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--inst_cmos2transformer
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_init2gray
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2transformer/cmos2transformer.v)</td>
+<td align = "center">50</td>
+<td align = "center">29</td>
+<td align = "center">17</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_gray2transformer
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2transformer/cmos2transformer.v)</td>
+<td align = "center">126</td>
+<td align = "center">127</td>
+<td align = "center">102</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_fifo_sc_fifo1
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2transformer/gray2transformer.v)</td>
+<td align = "center">28</td>
+<td align = "center">12</td>
+<td align = "center">52</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_fifo_sc_fifo2
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2transformer/gray2transformer.v)</td>
+<td align = "center">28</td>
+<td align = "center">12</td>
+<td align = "center">52</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_transformer_send
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2transformer/cmos2transformer.v)</td>
+<td align = "center">66</td>
+<td align = "center">51</td>
+<td align = "center">265</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_FIFO_HS_Top_transformer
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2transformer/transformer_send.v)</td>
+<td align = "center">54</td>
+<td align = "center">12</td>
+<td align = "center">82</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--crc32_init_transformer
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2transformer/transformer_send.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">47</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--inst_cmos2filter
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/main.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_init2gray
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2gray/cmos2gray.v)</td>
+<td align = "center">32</td>
+<td align = "center">29</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_gray2filter
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2gray/cmos2gray.v)</td>
+<td align = "center">123</td>
+<td align = "center">97</td>
+<td align = "center">43</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_fifo_sc_fifo1
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2gray/gray2filter.v)</td>
+<td align = "center">28</td>
+<td align = "center">12</td>
+<td align = "center">52</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_fifo_sc_fifo2
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2gray/gray2filter.v)</td>
+<td align = "center">28</td>
+<td align = "center">12</td>
+<td align = "center">52</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_filter_send
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2gray/cmos2gray.v)</td>
+<td align = "center">66</td>
+<td align = "center">51</td>
+<td align = "center">272</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inst_FIFO_HS_Top_filter
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2gray/filter_send.v)</td>
+<td align = "center">54</td>
+<td align = "center">12</td>
+<td align = "center">82</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--crc32_init_filter
+ (D:/Acode/Gowin/9_doubleOv5640_transformer_UDP/src/rtl/cmos2gray/filter_send.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">45</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+</table>
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>

@@ -1,0 +1,36 @@
+D:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo1/fifo_sc_fifo1.vo {1 {vlog -work work -vopt -stats=none D:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo1/fifo_sc_fifo1.vo
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module fifo_sc_fifo1
+
+Top level modules:
+	fifo_sc_fifo1
+
+} {} {}} D:/Acode/Gowin/6_ov5640_double_beta1/src/sim/tb_cmos2sobel.v {1 {vlog -work work -vopt -stats=none D:/Acode/Gowin/6_ov5640_double_beta1/src/sim/tb_cmos2sobel.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module tb_cmos2sobel
+
+Top level modules:
+	tb_cmos2sobel
+
+} {} {}} D:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo2/fifo_sc_fifo2.vo {1 {vlog -work work -vopt -stats=none D:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo2/fifo_sc_fifo2.vo
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module fifo_sc_fifo2
+
+Top level modules:
+	fifo_sc_fifo2
+
+} {} {}} D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/cmos2sobel.v {1 {vlog -work work -vopt -stats=none D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/cmos2sobel.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module cmos2sobel
+
+Top level modules:
+	cmos2sobel
+
+} {} {}} D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/sobel_send.v {1 {vlog -work work -vopt -stats=none D:/Acode/Gowin/6_ov5640_double_beta1/src/rtl/cmos2sobel/sobel_send.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module sobel_send
+
+Top level modules:
+	sobel_send
+
+} {} {}}

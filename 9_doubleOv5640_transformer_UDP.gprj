@@ -1,0 +1,41 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18EQ144PC8/I7">gw2ar18c-014</Device>
+    <FileList>
+        <File path="src/ip/fifo_hs/fifo_hs.v" type="file.verilog" enable="1"/>
+        <File path="src/ip/fifo_sc_fifo1/fifo_sc_fifo1.v" type="file.verilog" enable="1"/>
+        <File path="src/ip/fifo_sc_fifo2/fifo_sc_fifo2.v" type="file.verilog" enable="1"/>
+        <File path="src/ip/gowin_rpll25M/gowin_rpll25M.v" type="file.verilog" enable="1"/>
+        <File path="src/ip/gowin_rpll50M/gowin_rpll50M.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/arp/arp.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/arp/arp_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/arp/arp_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos2eth/cmos2eth.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos2eth/cmos_data_rev.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos2eth/cmos_udp_send.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos2gray/cmos2gray.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos2gray/data2gray.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos2gray/filter_send.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos2gray/gray2filter.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos2transformer/cmos2transformer.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos2transformer/data2gray.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos2transformer/gray2transformer.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos2transformer/transformer_send.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos_config/cmos_config.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos_config/config_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/cmos_config/i2c_send.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/eth_trans/crc32.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/eth_trans/eth_trans.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/eth_trans/rgmii_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/eth_trans/rgmii_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/icmp/icmp.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/icmp/icmp_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/icmp/icmp_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/key_filter/key_filter.v" type="file.verilog" enable="1"/>
+        <File path="src/rtl/main.v" type="file.verilog" enable="1"/>
+        <File path="src/xdc/main.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2AR-18C" package="eLQFP144P" speed="8" partNumber="GW2AR-LV18EQ144PC8/I7"/>
+    <FileList>
+        <File path="D:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo1/temp/FIFO_SC/fifo_sc_define.v" type="verilog"/>
+        <File path="D:/Acode/Gowin/6_ov5640_double_beta1/src/ip/fifo_sc_fifo1/temp/FIFO_SC/fifo_sc_parameter.v" type="verilog"/>
+        <File path="D:/Software/Gowin/Gowin_V1.9.9Beta-5/IDE/ipcore/FIFO_SC/data/edc_sc.v" type="verilog"/>
+        <File path="D:/Software/Gowin/Gowin_V1.9.9Beta-5/IDE/ipcore/FIFO_SC/data/fifo_sc.v" type="verilog"/>
+        <File path="D:/Software/Gowin/Gowin_V1.9.9Beta-5/IDE/ipcore/FIFO_SC/data/fifo_sc_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="output_file" value="fifo_sc_fifo1.vg"/>
+        <Option type="output_template" value="fifo_sc_fifo1_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

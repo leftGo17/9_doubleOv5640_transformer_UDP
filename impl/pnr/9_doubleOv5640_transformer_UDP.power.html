@@ -1,0 +1,508 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ENhttp://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Power Analysis Report</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 12px; }
+div#main_wrapper { width: 100%; }
+div#content { margin-left: 350px; margin-right: 30px; }
+div#catalog_wrapper {position: fixed; top: 30px; width: 350px; float: left; }
+div#catalog ul { list-style-type: none; }
+div#catalog li { text-align: left; list-style-type:circle; color: #0084ff; margin-top: 3px; margin-bottom: 3px; }
+div#catalog a { display:inline-block; text-decoration: none; color: #0084ff; font-weight: bold; padding: 3px; }
+div#catalog a:visited { color: #0084ff; }
+div#catalog a:hover { color: #fff; background: #0084ff; }
+hr { margin-top: 30px; margin-bottom: 30px; }
+h1, h3 { text-align: center; }
+h1 {margin-top: 50px; }
+table, th, td {white-space:pre;  border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { padding: 5px 5px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table.summary_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.thermal_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.Configure_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.detail_table th.label {  min-width: 8%; width: 8%; }
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="catalog_wrapper">
+<div id="catalog">
+<ul>
+<li><a href="#Message" style=" font-size: 16px;">Power Messages</a>
+</li>
+<li><a href="#Summary" style=" font-size: 16px;">Power Summary</a>
+<ul>
+<li><a href="#Power_Info" style=" font-size: 14px;">Power Information</a></li>
+<li><a href="#Thermal_Info" style=" font-size: 14px;">Thermal Information</a></li>
+<li><a href="#Configure_Info" style=" font-size: 14px;">Configure Information</a></li>
+<li><a href="#Supply_Summary" style=" font-size: 14px;">Supply Information</a></li>
+</ul>
+</li>
+<li><a href="#Detail" style=" font-size: 16px;">Power Details</a>
+<ul>
+<li><a href="#By_Block_Type" style=" font-size: 14px;">Power By Block Type</a></li>
+<li><a href="#By_Hierarchy" style=" font-size: 14px;">Power By Hierarchy</a></li>
+<li><a href="#By_Clock_Domain" style=" font-size: 14px;">Power By Clock Domain</a></li>
+</ul>
+</li>
+</ul>
+</div><!-- catalog -->
+</div><!-- catalog_wrapper -->
+<div id="content">
+<h1><a name="Message">Power Messages</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label">Report Title</td>
+<td>Power Analysis Report</td>
+</tr>
+<tr>
+<td class="label">Design File</td>
+<td>D:\Acode\Gowin\9_doubleOv5640_transformer_UDP\impl\gwsynthesis\9_doubleOv5640_transformer_UDP.vg</td>
+</tr>
+<tr>
+<td class="label">Physical Constraints File</td>
+<td>D:\Acode\Gowin\9_doubleOv5640_transformer_UDP\src\xdc\main.cst</td>
+</tr>
+<tr>
+<td class="label">Timing Constraints File</td>
+<td>---</td>
+</tr>
+<tr>
+<td class="label">Version</td>
+<td>V1.9.9 Beta-5</td>
+</tr>
+<tr>
+<td class="label">Part Number</td>
+<td>GW2AR-LV18EQ144PC8/I7</td>
+</tr>
+<tr>
+<td class="label">Device</td>
+<td>GW2AR-18</td>
+</tr>
+<tr>
+<td class="label">Device Version</td>
+<td>C</td>
+</tr>
+<tr>
+<td class="label">Created Time</td>
+<td>Mon Nov 13 17:57:24 2023
+</td>
+</tr>
+<tr>
+<td class="label">Legal Announcement</td>
+<td>Copyright (C)2014-2023 Gowin Semiconductor Corporation. All rights reserved.</td>
+</tr>
+</table>
+<h1><a name="Summary">Power Summary</a></h1>
+<h2><a name="Power_Info">Power Information:</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label">Total Power (mW)</td>
+<td>356.414</td>
+</tr>
+<tr>
+<td class="label">Quiescent Power (mW)</td>
+<td>91.583</td>
+</tr>
+<tr>
+<td class="label">Dynamic Power (mW)</td>
+<td>264.831</td>
+</tr>
+<tr>
+<td class="label">Psram Power (mW)</td>
+<td>86.000</td>
+</tr>
+</table>
+<h2><a name="Thermal_Info">Thermal Information:</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label">Junction Temperature</td>
+<td>31.013</td>
+</tr>
+<tr>
+<td class="label">Theta JA</td>
+<td>16.870</td>
+</tr>
+<tr>
+<td class="label">Max Allowed Ambient Temperature</td>
+<td>78.987</td>
+</tr>
+</table>
+<h2><a name="Configure_Info">Configure Information:</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label">Default IO Toggle Rate</td>
+<td>0.125</td>
+</tr>
+<td class="label">Default Remain Toggle Rate</td>
+<td>0.125</td>
+</tr>
+<tr>
+<td class="label">Use Vectorless Estimation</td>
+<td>false</td>
+</tr>
+<tr>
+<td class="label">Filter Glitches</td>
+<td>false</td>
+</tr>
+<tr>
+<td class="label">Related Vcd File</td>
+<td></td>
+</tr>
+<tr>
+<td class="label">Related Saif File</td>
+<td></td>
+</tr>
+<tr>
+<td class="label">Use Custom Theta JA</td>
+<td>false</td>
+</tr>
+<tr>
+<td class="label">Air Flow</td>
+<td>LFM_0</td>
+</tr>
+<tr>
+<td class="label">Heat Sink</td>
+<td>None</td>
+</tr>
+<tr>
+<td class="label">Use Custom Theta SA</td>
+<td>false</td>
+</tr>
+<tr>
+<td class="label">Board Thermal Model</td>
+<td>None</td>
+</tr>
+<tr>
+<td class="label">Use Custom Theta JB</td>
+<td>false</td>
+</tr>
+<tr>
+<td class="label">Ambient Temperature</td>
+<td>25.000
+</tr>
+</table>
+<h2><a name="Supply_Summary">Supply Information:</a></h2>
+<table class="summary_table">
+<tr>
+<th class="label">Voltage Source</th>
+<th class="label">Voltage</th>
+<th class="label">Dynamic Current(mA)</th>
+<th class="label">Quiescent Current(mA)</th>
+<th class="label">Power(mW)</th>
+</tr>
+<tr>
+<td>VCC</td>
+<td>1.000</td>
+<td>252.351</td>
+<td>61.496</td>
+<td>313.846</td>
+</tr>
+<tr>
+<td>VCCX</td>
+<td>2.500</td>
+<td>2.916</td>
+<td>11.364</td>
+<td>35.700</td>
+</tr>
+<tr>
+<td>VCCIO18</td>
+<td>1.800</td>
+<td>2.883</td>
+<td>0.932</td>
+<td>6.869</td>
+</tr>
+</table>
+<h1><a name="Detail">Power Details</a></h1>
+<h2><a name="By_Block_Type">Power By Block Type:</a></h2>
+<table class="detail_table">
+<tr>
+<th class="label">Block Type</th>
+<th class="label">Total Power(mW)</th>
+<th class="label">Static Power(mW)</th>
+<th class="label">Average Toggle Rate(millions of transitions/sec)</th>
+</tr>
+<tr>
+<td>Logic</td>
+<td>9.045</td>
+<td>NA</td>
+<td>12.363</td>
+</tr>
+<tr>
+<td>IO</td>
+<td>21.177
+<td>5.718
+<td>16.912
+</tr>
+<tr>
+<td>BSRAM</td>
+<td>221.769
+<td>NA</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>PLL</td>
+<td>7.845
+<td>NA</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>DSP</td>
+<td>10.631
+<td>NA</td>
+<td>1.389
+</tr>
+</table>
+<h2><a name="By_Hierarchy">Power By Hierarchy:</a></h2>
+<table class="detail_table">
+<tr>
+<th class="label">Hierarchy Entity</th>
+<th class="label">Total Power(mW)</th>
+<th class="label">Block Dynamic Power(mW)</th>
+</tr>
+<tr>
+<td>main</td>
+<td>249.290</td>
+<td>249.290(249.236)</td>
+<tr>
+<td>main/arp_inst/</td>
+<td>0.717</td>
+<td>0.717(0.643)</td>
+<tr>
+<td>main/arp_inst/arp_rx_inst/</td>
+<td>0.340</td>
+<td>0.340(0.000)</td>
+<tr>
+<td>main/arp_inst/arp_tx_inst/</td>
+<td>0.303</td>
+<td>0.303(0.051)</td>
+<tr>
+<td>main/arp_inst/arp_tx_inst/crc32_init_arp/</td>
+<td>0.051</td>
+<td>0.051(0.000)</td>
+<tr>
+<td>main/icmp_inst/</td>
+<td>1.265</td>
+<td>1.265(1.199)</td>
+<tr>
+<td>main/icmp_inst/icmp_rx_inst/</td>
+<td>0.205</td>
+<td>0.205(0.000)</td>
+<tr>
+<td>main/icmp_inst/icmp_tx_inst/</td>
+<td>0.994</td>
+<td>0.994(0.052)</td>
+<tr>
+<td>main/icmp_inst/icmp_tx_inst/crc32_init_icmp/</td>
+<td>0.052</td>
+<td>0.052(0.000)</td>
+<tr>
+<td>main/inst_Gowin_rPLL25M/</td>
+<td>2.615</td>
+<td>2.615(0.000)</td>
+<tr>
+<td>main/inst_Gowin_rPLL50M/</td>
+<td>5.230</td>
+<td>5.230(0.000)</td>
+<tr>
+<td>main/inst_cmos2eth_1/</td>
+<td>28.534</td>
+<td>28.534(28.534)</td>
+<tr>
+<td>main/inst_cmos2eth_1/inst_cmos_data_rev/</td>
+<td>0.109</td>
+<td>0.109(0.000)</td>
+<tr>
+<td>main/inst_cmos2eth_1/inst_cmos_udp_send/</td>
+<td>28.425</td>
+<td>28.425(27.745)</td>
+<tr>
+<td>main/inst_cmos2eth_1/inst_cmos_udp_send/crc32_init_cmos/</td>
+<td>0.048</td>
+<td>0.048(0.000)</td>
+<tr>
+<td>main/inst_cmos2eth_1/inst_cmos_udp_send/inst_FIFO_HS_Top/</td>
+<td>27.697</td>
+<td>27.697(27.697)</td>
+<tr>
+<td>main/inst_cmos2eth_1/inst_cmos_udp_send/inst_FIFO_HS_Top/fifo_inst/</td>
+<td>27.697</td>
+<td>27.697(0.000)</td>
+<tr>
+<td>main/inst_cmos2eth_2/</td>
+<td>28.526</td>
+<td>28.526(28.526)</td>
+<tr>
+<td>main/inst_cmos2eth_2/inst_cmos_data_rev/</td>
+<td>0.111</td>
+<td>0.111(0.000)</td>
+<tr>
+<td>main/inst_cmos2eth_2/inst_cmos_udp_send/</td>
+<td>28.415</td>
+<td>28.415(27.741)</td>
+<tr>
+<td>main/inst_cmos2eth_2/inst_cmos_udp_send/crc32_init_cmos/</td>
+<td>0.044</td>
+<td>0.044(0.000)</td>
+<tr>
+<td>main/inst_cmos2eth_2/inst_cmos_udp_send/inst_FIFO_HS_Top/</td>
+<td>27.697</td>
+<td>27.697(27.697)</td>
+<tr>
+<td>main/inst_cmos2eth_2/inst_cmos_udp_send/inst_FIFO_HS_Top/fifo_inst/</td>
+<td>27.697</td>
+<td>27.697(0.000)</td>
+<tr>
+<td>main/inst_cmos2filter/</td>
+<td>84.815</td>
+<td>84.815(84.815)</td>
+<tr>
+<td>main/inst_cmos2filter/inst_filter_send/</td>
+<td>28.419</td>
+<td>28.419(27.741)</td>
+<tr>
+<td>main/inst_cmos2filter/inst_filter_send/crc32_init_filter/</td>
+<td>0.044</td>
+<td>0.044(0.000)</td>
+<tr>
+<td>main/inst_cmos2filter/inst_filter_send/inst_FIFO_HS_Top_filter/</td>
+<td>27.697</td>
+<td>27.697(27.697)</td>
+<tr>
+<td>main/inst_cmos2filter/inst_filter_send/inst_FIFO_HS_Top_filter/fifo_inst/</td>
+<td>27.697</td>
+<td>27.697(0.000)</td>
+<tr>
+<td>main/inst_cmos2filter/inst_gray2filter/</td>
+<td>56.150</td>
+<td>56.150(55.307)</td>
+<tr>
+<td>main/inst_cmos2filter/inst_gray2filter/inst_fifo_sc_fifo1/</td>
+<td>27.653</td>
+<td>27.653(27.653)</td>
+<tr>
+<td>main/inst_cmos2filter/inst_gray2filter/inst_fifo_sc_fifo1/fifo_sc_inst/</td>
+<td>27.653</td>
+<td>27.653(0.000)</td>
+<tr>
+<td>main/inst_cmos2filter/inst_gray2filter/inst_fifo_sc_fifo2/</td>
+<td>27.653</td>
+<td>27.653(27.653)</td>
+<tr>
+<td>main/inst_cmos2filter/inst_gray2filter/inst_fifo_sc_fifo2/fifo_sc_inst/</td>
+<td>27.653</td>
+<td>27.653(0.000)</td>
+<tr>
+<td>main/inst_cmos2filter/inst_init2gray/</td>
+<td>0.245</td>
+<td>0.245(0.000)</td>
+<tr>
+<td>main/inst_cmos2transformer/</td>
+<td>95.737</td>
+<td>95.737(95.737)</td>
+<tr>
+<td>main/inst_cmos2transformer/inst_gray2transformer/</td>
+<td>67.061</td>
+<td>67.061(55.307)</td>
+<tr>
+<td>main/inst_cmos2transformer/inst_gray2transformer/inst_fifo_sc_fifo1/</td>
+<td>27.653</td>
+<td>27.653(27.653)</td>
+<tr>
+<td>main/inst_cmos2transformer/inst_gray2transformer/inst_fifo_sc_fifo1/fifo_sc_inst/</td>
+<td>27.653</td>
+<td>27.653(0.000)</td>
+<tr>
+<td>main/inst_cmos2transformer/inst_gray2transformer/inst_fifo_sc_fifo2/</td>
+<td>27.653</td>
+<td>27.653(27.653)</td>
+<tr>
+<td>main/inst_cmos2transformer/inst_gray2transformer/inst_fifo_sc_fifo2/fifo_sc_inst/</td>
+<td>27.653</td>
+<td>27.653(0.000)</td>
+<tr>
+<td>main/inst_cmos2transformer/inst_init2gray/</td>
+<td>0.262</td>
+<td>0.262(0.000)</td>
+<tr>
+<td>main/inst_cmos2transformer/inst_transformer_send/</td>
+<td>28.414</td>
+<td>28.414(27.743)</td>
+<tr>
+<td>main/inst_cmos2transformer/inst_transformer_send/crc32_init_transformer/</td>
+<td>0.046</td>
+<td>0.046(0.000)</td>
+<tr>
+<td>main/inst_cmos2transformer/inst_transformer_send/inst_FIFO_HS_Top_transformer/</td>
+<td>27.697</td>
+<td>27.697(27.697)</td>
+<tr>
+<td>main/inst_cmos2transformer/inst_transformer_send/inst_FIFO_HS_Top_transformer/fifo_inst/</td>
+<td>27.697</td>
+<td>27.697(0.000)</td>
+<tr>
+<td>main/inst_cmos_config/</td>
+<td>1.772</td>
+<td>1.772(1.772)</td>
+<tr>
+<td>main/inst_cmos_config/inst_config_ctrl/</td>
+<td>1.633</td>
+<td>1.633(0.000)</td>
+<tr>
+<td>main/inst_cmos_config/inst_i2c_send/</td>
+<td>0.139</td>
+<td>0.139(0.000)</td>
+<tr>
+<td>main/key_filter_inst/</td>
+<td>0.024</td>
+<td>0.024(0.000)</td>
+</table>
+<h2><a name="By_Clock_Domain">Power By Clock Domain:</a></h2>
+<table class="detail_table">
+<tr>
+<th class="label">Clock Domain</th>
+<th class="label">Clock Frequency(Mhz)</th>
+<th class="label">Total Dynamic Power(mW)</th>
+</tr>
+<tr>
+<td>rgmii_eth_rxc</td>
+<td>100.000</td>
+<td>60.204</td>
+</tr>
+<tr>
+<td>inst_Gowin_rPLL50M/rpll_inst/CLKOUT.default_gen_clk</td>
+<td>50.000</td>
+<td>0.092</td>
+</tr>
+<tr>
+<td>NO CLOCK DOMAIN</td>
+<td>0.000</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td>cam1_pclk</td>
+<td>100.000</td>
+<td>165.481</td>
+</tr>
+<tr>
+<td>cam2_pclk</td>
+<td>100.000</td>
+<td>14.003</td>
+</tr>
+<tr>
+<td>inst_cmos_config/dri_clk_2</td>
+<td>100.000</td>
+<td>1.747</td>
+</tr>
+<tr>
+<td>sys_clk</td>
+<td>50.000</td>
+<td>7.845</td>
+</tr>
+</table>
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>
